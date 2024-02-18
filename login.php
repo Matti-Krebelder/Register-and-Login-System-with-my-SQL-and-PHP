@@ -37,6 +37,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         body {
             background-color: <?php echo BACKGROUND_COLOR; ?>;
             background-image: url(<?php echo BACKGROUND_IMAGE_URL; ?>);
+            background-repeat: no-repeat;
+            background-size: cover;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -110,6 +112,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <label for="password">Passwort:</label>
         <input type="password" id="password" name="password">
         <input type="submit" value="Login">
+        <a>Dont have a account? Register</a><a href="register.php"> here.</a>
     </form>
 </body>
 </html>
