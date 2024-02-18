@@ -20,7 +20,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $sql = "INSERT INTO users (username, password) VALUES ('$username', '$hashed_password')";
     if ($conn->query($sql) === TRUE) {
-        echo "Registrierung erfolgreich!";
+        header("Location: login.php");
+        
     } else {
         echo "Fehler: " . $sql . "<br>" . $conn->error;
     }
@@ -36,6 +37,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         body {
             background-color: <?php echo BACKGROUND_COLOR; ?>;
             background-image: url(<?php echo BACKGROUND_IMAGE_URL; ?>);
+            background-repeat: no-repeat;
+        background-size: cover;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -111,6 +114,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <label for="confirm_password">Passwort bestätigen:</label>
         <input type="password" id="confirm_password" name="confirm_password">
         <input type="submit" value="Registrieren">
+        <a>Already registered? Login</a><a href="login.php"> here.</a>
     </form>
 </body>
 </html>
