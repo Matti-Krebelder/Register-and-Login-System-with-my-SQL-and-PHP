@@ -20,6 +20,8 @@ include_once 'config.php';
             background-color: <?php echo BACKGROUND_COLOR; ?>;
             color: <?php echo COLOR; ?>;
             background-image: url(<?php echo BACKGROUND_IMAGE_URL; ?>);
+            background-repeat: no-repeat;
+        background-size: cover;
             
         }
     </style>
