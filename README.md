@@ -12,7 +12,7 @@ A login system with MYSQL and PHP fully customisable in config file
 1. **Download the files**
 
 ### Change Config.php settings
-2. **go to config.php and edit to your SQL conection data:**
+2. **go to config.php and edit to your SQL connection data:**
    ```bash
     define('DB_HOST', 'localhost');
     define('DB_USER', 'username');
