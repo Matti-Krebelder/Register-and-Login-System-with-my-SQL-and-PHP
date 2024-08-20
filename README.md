@@ -45,11 +45,11 @@ A login system with MYSQL and PHP fully customisable in config file
 
 ## Screenshots
 
-![App Screenshot](https://skynethub.net/sh1.png)
+![App Screenshot](http://skynethub.net/sh1.png)
 
-![App Screenshot](https://skynethub.net/sh3.png)
+![App Screenshot](http://skynethub.net/sh3.png)
 
-![App Screenshot](https://skynethub.net/sh2.png)
+![App Screenshot](http://skynethub.net/sh2.png)
 
 ## Support 📧
 
